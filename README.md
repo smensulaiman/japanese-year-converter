@@ -2,6 +2,7 @@
 
 Convert Japanese era years (Wareki - 和暦) to Gregorian calendar years (Seireki - 西暦) in PHP.
 This library allows you to easily convert Japanese era years to their corresponding Gregorian years, supporting both Kanji and Romaji inputs.
+
 ---
 
 ## Features
