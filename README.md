@@ -1,9 +1,7 @@
-# 🇯🇵 Japanese Year Converter
+# Japanese Year Converter
 
 Convert Japanese era years (Wareki - 和暦) to Gregorian calendar years (Seireki - 西暦) in PHP.
-
-`sulaiman/japanese-year-converter`
-
+This library allows you to easily convert Japanese era years to their corresponding Gregorian years, supporting both Kanji and Romaji inputs.
 ---
 
 ## Features
@@ -26,7 +24,7 @@ composer require sulaiman/japanese-year-converter
 ## Usage
 
 ```php
-use JapaneseYearConverter\JapaneseYearConverter;
+use use Sulaiman\JapaneseYearConverter\JapaneseYearConverter;;
 
 // Direct conversion
 echo JapaneseYearConverter::toGregorian('平成', 13); // Output: 2001
@@ -55,13 +53,13 @@ echo JapaneseYearConverter::fromString('平成13');   // 2001
 
 ## Supported Eras
 
-| Kanji  | Romaji  | Start Year |
-|--------|---------|------------|
-| 令和   | Reiwa   | 2019       |
-| 平成   | Heisei  | 1989       |
-| 昭和   | Showa   | 1926       |
-| 大正   | Taisho  | 1912       |
-| 明治   | Meiji   | 1868       |
+| Kanji | Romaji  | Year |
+|-------|---------|------|
+| 令和   | Reiwa   | 2019 |
+| 平成   | Heisei  | 1989 |
+| 昭和   | Showa   | 1926 |
+| 大正   | Taisho  | 1912 |
+| 明治   | Meiji   | 1868 |
 
 ---
 
