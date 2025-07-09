@@ -2,6 +2,8 @@
     "name": "smensulaiman/japanese-year-converter",
     "description": "Convert Japanese era (Wareki) years to Gregorian (Seireki) years",
     "type": "library",
+    "keywords": ["php", "japan", "wareki", "calendar", "converter", "era", "date", "gregorian", "seireki"],
+    "homepage": "https://github.com/smensulaiman/japanese-year-converter",
     "license": "MIT",
     "autoload": {
         "psr-4": {
