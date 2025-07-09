@@ -1,6 +1,6 @@
 <?php
 
-namespace Sulaiman\JapaneseYearConverter;
+namespace Sulaimansan\JapaneseYearConverter;
 
 use InvalidArgumentException;
 
