@@ -72,4 +72,4 @@ MIT © [Sulaiman](https://github.com/sulaiman)
 
 ## 🤝 Contributing
 
-Pull requests and issues are welcome! Please open one on [GitHub Issues](https://github.com/sulaiman/japanese-year-converter/issues).
+Pull requests and issues are welcome! Please open one on [GitHub Issues](https://github.com/smensulaiman/japanese-year-converter/issues).
