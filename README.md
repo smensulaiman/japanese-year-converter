@@ -25,7 +25,7 @@ composer require sulaiman/japanese-year-converter
 ## Usage
 
 ```php
-use use Sulaiman\JapaneseYearConverter\JapaneseYearConverter;;
+use use Sulaiman\JapaneseYearConverter\JapaneseYearConverter;
 
 // Direct conversion
 echo JapaneseYearConverter::toGregorian('平成', 13); // Output: 2001
@@ -44,7 +44,7 @@ echo JapaneseYearConverter::fromString('令和5');     // Output: 2023
 <?php
 require 'vendor/autoload.php';
 
-use JapaneseYearConverter\JapaneseYearConverter;
+use Sulaiman\JapaneseYearConverter\JapaneseYearConverter;
 
 echo JapaneseYearConverter::toGregorian('令和', 6); // 2024
 echo JapaneseYearConverter::fromString('平成13');   // 2001
