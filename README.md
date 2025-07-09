@@ -17,7 +17,7 @@ This library allows you to easily convert Japanese era years to their correspond
 ## Installation
 
 ```bash
-composer require sulaimansan/japanese-year-converter
+composer require smensulaiman/japanese-year-converter
 ```
 
 ---
@@ -25,7 +25,7 @@ composer require sulaimansan/japanese-year-converter
 ## Usage
 
 ```php
-use use Sulaimansan\JapaneseYearConverter\JapaneseYearConverter;
+use use Smensulaiman\JapaneseYearConverter\JapaneseYearConverter;
 
 // Direct conversion
 echo JapaneseYearConverter::toGregorian('平成', 13); // Output: 2001
@@ -44,7 +44,7 @@ echo JapaneseYearConverter::fromString('令和5');     // Output: 2023
 <?php
 require 'vendor/autoload.php';
 
-use Sulaimansan\JapaneseYearConverter\JapaneseYearConverter;
+use Smensulaiman\JapaneseYearConverter\JapaneseYearConverter;
 
 echo JapaneseYearConverter::toGregorian('令和', 6); // 2024
 echo JapaneseYearConverter::fromString('平成13');   // 2001

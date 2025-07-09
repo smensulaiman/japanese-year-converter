@@ -1,11 +1,11 @@
 {
-    "name": "sulaimansan/japanese-year-converter",
+    "name": "smensulaiman/japanese-year-converter",
     "description": "Convert Japanese era (Wareki) years to Gregorian (Seireki) years",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sulaimansan\\JapaneseYearConverter\\": "src/"
+            "Smensulaiman\\JapaneseYearConverter\\": "src/"
         }
     },
     "authors": [

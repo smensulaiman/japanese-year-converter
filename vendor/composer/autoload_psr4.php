@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Sulaimansan\\JapaneseYearConverter\\' => array($baseDir . '/src'),
+    'Smensulaiman\\JapaneseYearConverter\\' => array($baseDir . '/src'),
 );
