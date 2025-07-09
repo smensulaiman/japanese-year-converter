@@ -25,7 +25,7 @@ composer require smensulaiman/japanese-year-converter
 ## Usage
 
 ```php
-use use Smensulaiman\JapaneseYearConverter\JapaneseYearConverter;
+use Smensulaiman\JapaneseYearConverter\JapaneseYearConverter;
 
 // Direct conversion
 echo JapaneseYearConverter::toGregorian('平成', 13); // Output: 2001
